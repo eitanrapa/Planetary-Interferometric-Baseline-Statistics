@@ -1,0 +1,13 @@
+# -*- makefile -*-
+#
+# the pibs development team
+# (c) 2024-2025 all rights reserved
+
+
+# the testsuite for the pibs package
+pibs.pkg.tests.stem := pibs.pkg
+# depends on
+pibs.pkg.tests.prerequisites := pibs.pkg
+
+
+# end of file

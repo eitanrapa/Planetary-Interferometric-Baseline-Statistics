@@ -1,0 +1,19 @@
+# -*- makefile -*-
+#
+# the pibs development team
+# (c) 2024-2025 all rights reserved
+
+
+# metadata for the pibs python package
+# its name matches the name of the project, so it will get set correctly by default
+# its path relative to the project
+pibs.pkg.root := pkg/pibs/
+
+# its plexus wrapper is in {bin}
+pibs.pkg.drivers := pibs
+
+# its configuration files are in {share}
+pibs.pkg.defaults := share/
+
+
+# end of file

@@ -1,0 +1,15 @@
+# -*- makefile -*-
+#
+# the pibs development team
+# (c) 2024-2025 all rights reserved
+
+
+# the testsuite for the pibs bindings
+pibs.lib.tests.stem := pibs.lib
+# depends on
+pibs.lib.tests.prerequisites := pibs.lib
+# external dependencies
+pibs.lib.tests.extern := pibs.lib $(pibs.lib.extern)
+
+
+# end of file

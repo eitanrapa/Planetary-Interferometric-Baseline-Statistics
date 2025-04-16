@@ -1,0 +1,15 @@
+#
+# the pibs development team
+# (c) 2024-2025 all rights reserved
+
+
+# project info
+project:
+  name: pibs
+  capname: pibs
+  authors: the pibs development team
+  span: 2024-2025
+  github: git@github.com:eitanrapa/Planetary-Interferometric-Baseline-Statistics.git
+
+
+# end of file

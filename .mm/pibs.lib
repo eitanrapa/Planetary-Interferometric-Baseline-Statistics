@@ -1,0 +1,27 @@
+# -*- makefile -*-
+#
+# the pibs development team
+# (c) 2024-2025 all rights reserved
+
+
+# configuration for libpibs
+pibs.lib.stem := pibs
+# its location
+pibs.lib.root := lib/pibs/
+# dependencies on external packages
+pibs.lib.extern := pyre gsl
+
+# use c++20
+pibs.lib.c++.flags += $($(compiler.c++).std.c++20)
+
+# the autogen files
+pibs.lib.headers.autogen := version.h.in
+# the expansion table
+pibs.lib.autogen = \
+    @MAJOR@|$(pibs.major)\
+    @MINOR@|$(pibs.minor) \
+    @MICRO@|$(pibs.micro) \
+    @REVISION@|$(pibs.revision) \
+
+
+# end of file
